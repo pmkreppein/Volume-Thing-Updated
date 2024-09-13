@@ -26,7 +26,7 @@ end
 
 CSV.foreach(cboe_file, headers: true) do |row|
     symbol = row['Stock Symbol']
-    formatted_url = "https://cloud.iexapis.com/stable/stock/#{symbol}/quote?token=pk_8054bb0b787d423994948088e3d5ada8"
+    formatted_url = "https://cloud.iexapis.com/stable/stock/#{symbol}/quote?token="
     uri = URI.parse(formatted_url)
     response = Net::HTTP.get_response(uri)
     quote = JSON.parse(response.body)
