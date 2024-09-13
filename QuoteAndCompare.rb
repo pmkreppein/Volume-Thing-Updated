@@ -5,7 +5,8 @@ require 'uri'
 require "date"
 require "pry"
 
-cboe_file = "compare_us8.csv"
+#cboe_file = "compare_us8.csv"
+cboe_file = "./cboe_file.csv"
 quotes_downloaded_total = 0
 args = ARGV
 time_to_check = args[0]
