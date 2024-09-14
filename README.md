@@ -11,3 +11,7 @@ The third file would theoretically compare the current volume to the average ove
 The end goal of this effort was to be able to spot potential big market moves before they occurred. 
 
 Overall, the quality of this scripting is low, but I did have it working a few times successfully.  
+
+**Investing involves risk.  Carefully read and understand all financial instrument documentation before investing.  This is not an offer to sell securities.  
+
+**This software is released without warrenty. Use at own risk. 
